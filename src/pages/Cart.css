@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+}
+
+@media screen and (max-width : 598px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
